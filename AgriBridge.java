@@ -6,6 +6,9 @@ import java.awt.*;
 public class AgriBridge {
 public static void main(String[] args){
 System.out .println("Welcome to AgriBridge");
+
+}  
+public static void loginForm(){
 Joptionpane.showMessageDialog(null, "Hello user");
 JFrame Lframe= new JFrame("Login Form");
   Lframe.setSize(300,300);
@@ -22,6 +25,13 @@ JPassword passwordT= new JPassword();
 // adding elements to the frame
   
 Lframe.add(LogLabel);
-  Lframe.setVisible(true);
-}  
+  Lframe.setVisible(true);a
+    
+  }
+  public static void createAccountForm(){
+// user details to be collected 
+    
+
+    
+  }
 }
